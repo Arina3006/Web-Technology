@@ -2,13 +2,53 @@ header{
     background-color: indigo;
     color: aliceblue;
 }
-a{color: aliceblue;}
-p {color: rgb(94, 9, 173);font-weight: 1000;}
+nav{
+    content:'';
+    display: block;
+    height: 500px;
+    width: 100%;
+    background: purple;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+a{
+    color: aliceblue;
+}
+p {
+    text-align-last: center;
+    color: rgb(94, 9, 173);font-weight: 1000;
+}
 body{
+   
     background: rgb(182, 152, 241);
 }
-h1 {font-family:cGeorgia, cursive;}
+h1 { 
+    text-align-last: center;
+    font-family:cGeorgia, cursive;
+}
 form{
+    
     border-style: dotted;
-    color:darkgreen
+    color:aliceblue; 
+    height: 100px; 
+    width: 600px;
+}
+ol li:hover{
+    background-color: bisque;
+    color: #000;
+}
+section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+footer{
+    background: rgb(100, 84, 154);
+    height: 50px; 
+    width: 360px;
+    color: rgb(196, 178, 220);
+    size: 25px;
+    text-align-last: center;
 }
