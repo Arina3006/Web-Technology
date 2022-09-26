@@ -2,16 +2,7 @@ header{
     background-color: indigo;
     color: aliceblue;
 }
-nav{
-    content:'';
-    display: block;
-    height: 500px;
-    width: 100%;
-    background: purple;
-    position: absolute;
-    left: 0;
-    z-index: -1;
-}
+
 a{
     color: aliceblue;
 }
