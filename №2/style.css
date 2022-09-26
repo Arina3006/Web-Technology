@@ -3,9 +3,8 @@ header{
     color: aliceblue;
 }
 a{color: aliceblue;}
-p {color: rgb(94, 9, 173);}
+p {color: rgb(94, 9, 173);font-weight: 500;}
 body{
     background: rgb(182, 152, 241);
-    font-weight: 100;
 }
 h1 {font-family:cGeorgia, cursive;}
