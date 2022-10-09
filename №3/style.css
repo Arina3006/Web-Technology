@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+.par {
+    display: flex;
+}
+.content {
+    background-color: darkslategray;
+    height: 400px;
+    flex-basis: 80%;
+}
+.dop-info {
+    background-color:cadetblue;
+    height: 400px;
+    flex-basis: 20%;
+}
+footer {
+    background-color: lemonchiffon;
+    height: 200px;
+}
