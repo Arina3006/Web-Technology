@@ -43,6 +43,15 @@ h1 {
     height: 400px;
     flex-basis: 80%;
 }
+section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section p {
+    margin-left: auto;
+    margin-right: auto;
+}
 .dop-info {
     background-color:cadetblue;
     height: 400px;
