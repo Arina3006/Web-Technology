@@ -2,6 +2,25 @@ header {
     background-color: black;
     height: 100px;
 }
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li{
+    float: left;
+    font-family: fantasy;
+}
 .par {
     display: flex;
 }
