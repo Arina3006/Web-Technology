@@ -19,7 +19,16 @@ ul{
 }
 ul li{
     float: left;
-    font-family: fantasy;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul li a{
+    color:azure;
+    display: block;
+    height: 50px;
+    padding: 0 135px;
+    text-transform:uppercase;
+    text-decoration: none;
+    line-height: 50px;
 }
 .par {
     display: flex;
