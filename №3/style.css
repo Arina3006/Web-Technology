@@ -8,11 +8,11 @@ nav:before{
     height: 50px;
     width: 100%;
     position: absolute;
-    left: 0;
+    left: 0%;
     z-index: -1;
 }
 ul{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     list-style: none;
     height: 50px;
