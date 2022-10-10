@@ -74,12 +74,3 @@ footer {
     background-color: lemonchiffon;
     height: 200px;
 }
-ul {
-    display: flex;
-    flex-wrap: wrap;
-    &:after {
-      content:'';
-      display:block;
-      flex-grow: 10;
-    }
-}
