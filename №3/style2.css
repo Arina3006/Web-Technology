@@ -2,6 +2,15 @@ header {
     background-color: black;
     height: 100px;
 }
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
 .content {
     background-color: darkslategray;
     height: 400px;
