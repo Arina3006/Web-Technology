@@ -19,11 +19,7 @@ h1 {
     font-family:cGeorgia, cursive;
 }
 form{
-    
-    border-style: dotted;
     color:aliceblue; 
-    height: 100px; 
-    width: 600px;
 }
 ol li:hover{
     background-color: bisque;
