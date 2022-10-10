@@ -1,7 +1,6 @@
 header {
     background-color: black;
     height: 100px;
-    margin: 0 auto;
 }
 nav:before{
     content:'';

@@ -39,9 +39,31 @@ h1 {
     background-color: darkslategray;
     height: 400px;
 }
+section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align-last: center;
+    font-family:Georgia, cursive;
+    font-size: larger;
+}
 .dop-info {
     background-color:cadetblue;
     height: 400px;
+}
+ol li:hover{
+    background-color: bisque;
+    color: #000;
+}
+form{
+    color:aliceblue; 
+    height: 50px; 
+    width: 60px;
+    margin-left: 20px;
 }
 footer {
     background-color: lemonchiffon;
