@@ -68,4 +68,7 @@ form{
 footer {
     background-color: lemonchiffon;
     height: 200px;
+    text-align-last: center;
+    border-top: 10px;
+    padding-top: 20px;
 }
