@@ -61,6 +61,10 @@ section p {
     height: 700px;
     flex-basis: 20%;
 }
+.dop-info ol li{
+    display: flex;
+    justify-content: space-between;
+}
 ol li:hover{
     background-color: bisque;
     color: #000;
