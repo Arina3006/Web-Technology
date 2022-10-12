@@ -41,7 +41,7 @@ h1 {
 }
 .content {
     background-color: darkslategray;
-    height: 400px;
+    height: 700px;
     flex-basis: 80%;
 }
 section{
@@ -58,7 +58,7 @@ section p {
 }
 .dop-info {
     background-color:cadetblue;
-    height: 400px;
+    height: 700px;
     flex-basis: 20%;
 }
 ol li:hover{
