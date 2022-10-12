@@ -3,7 +3,7 @@ header {
     margin: 0 auto;
 }
 nav{
-    display: flex;
+    display:flex;
     justify-content: space-around;
     height: 50px;
     width: 100%;
@@ -32,17 +32,14 @@ ul li a{
     width: 100%;
     justify-content: center;
 }
-h1 { 
+h1 {
+    margin-left: 10px;
     text-align-last: center;
     font-family:Georgia, cursive;
 }
-.par {
-    display: flex;
-}
 .content {
     background-color: darkslategray;
-    height: 1700px;
-    flex-basis: 80%;
+    height: 1750px;
     color: aliceblue;
 }
 .content div{
@@ -51,10 +48,6 @@ h1 {
 .content div p{
     font-size: large;
     font-weight: bold;
-}
-section{
-    display: block;
-
 }
 .content p{
     font-size: large;
@@ -66,11 +59,11 @@ section{
 }
 .dop-info {
     background-color:cadetblue;
-    height: 1700px;
-    flex-basis: 20%;
+    height: 500px;
 }
 .dop-info h2{
     padding-left: 10px;
+    text-align: center;
 }
 .dop-info ol li{
     font-family: Georgia;
@@ -78,6 +71,7 @@ section{
 }
 .dop-info h3{
     padding-left: 10px;
+    text-align: center;
 }
 ol li:hover{
     background-color:antiquewhite;
@@ -86,7 +80,7 @@ ol li:hover{
 form{
     height: 50px; 
     width: 60px;
-    margin-left: 20px;
+    margin-left: 40%;
 }
 footer {
     background-color:antiquewhite;

@@ -36,11 +36,9 @@ h1 {
     text-align-last: center;
     font-family:Georgia, cursive;
 }
-
 .content {
     background-color: darkslategray;
     height: 1700px;
-    flex-basis: 80%;
     color: aliceblue;
 }
 .content div{
@@ -64,8 +62,7 @@ section{
 }
 .dop-info {
     background-color:cadetblue;
-    height: 400px;
-    flex-basis: 20%;
+    height: 700px;
 }
 .dop-info h2{
     padding-left: 10px;
@@ -87,7 +84,7 @@ ol li:hover{
 form{
     height: 50px; 
     width: 50px;
-    margin: 37%;
+    margin: 40%;
     margin-top: 10px;
 }
 footer {
