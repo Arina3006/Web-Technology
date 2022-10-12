@@ -1,32 +1,36 @@
 header {
     background-color: black;
-    height: 100px;
+    margin: 0 auto;
 }
 nav:{
-    content:'';
+    display: flex;
+    justify-content: space-around;
     height: 50px;
     width: 100%;
     left: 0%;
 }
 ul{
-    margin: 10px;
+    margin: 0;
     padding: 0;
+    list-style: none;
     height: 50px;
+    width: 100%;
+    display: flex;
 }
 ul li{
-    float: left;
     font-family:Arial, Helvetica, sans-serif;
-    height: 30px;
+    flex-basis: 25%;
+    text-align: center;
 }
 ul li a{
     color:azure;
-    display: block;
+    display: flex;
     height: 60px;
-    margin-top: 30px;
-    padding: 0 135px;
     text-transform:uppercase;
     text-decoration: none;
     line-height: 50px;
+    width: 100%;
+    justify-content: center;
 }
 h1 { 
     text-align-last: center;
