@@ -1,43 +1,55 @@
 header {
     background-color: black;
-    height: 100px;
+    margin: 0 auto;
 }
-nav:before{
-    content:'';
-    display: block;
+nav:{
+    display: flex;
+    justify-content: space-around;
     height: 50px;
     width: 100%;
-    position: absolute;
     left: 0%;
-    z-index: -1;
 }
 ul{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     list-style: none;
     height: 50px;
+    width: 100%;
+    display: flex;
 }
 ul li{
-    float: left;
     font-family:Arial, Helvetica, sans-serif;
+    flex-basis: 25%;
+    text-align: center;
 }
 ul li a{
     color:azure;
-    display: block;
+    display: flex;
     height: 60px;
-    margin-top: 30px;
-    padding: 0 135px;
     text-transform:uppercase;
     text-decoration: none;
     line-height: 50px;
+    width: 100%;
+    justify-content: center;
 }
 h1 { 
     text-align-last: center;
     font-family:Georgia, cursive;
 }
+.par {
+    display: flex;
+}
 .content {
     background-color: darkslategray;
     height: 800px;
+    flex-basis: 80%;
+}
+.content div{
+    text-align: center;
+}
+.content div p{
+    font-size: large;
+    font-weight: bold;
 }
 section{
     display: block;
@@ -53,7 +65,12 @@ section p {
 }
 .dop-info {
     background-color:cadetblue;
-    height: 400px;
+    height: 800px;
+    flex-basis: 20%;
+}
+.dop-info ol li{
+    display: flex;
+    justify-content: space-between;
 }
 ol li:hover{
     background-color: bisque;
