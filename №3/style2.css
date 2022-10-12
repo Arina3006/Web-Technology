@@ -2,7 +2,7 @@ header {
     background-color: black;
     margin: 0 auto;
 }
-nav:{
+nav{
     display: flex;
     justify-content: space-around;
     height: 50px;
