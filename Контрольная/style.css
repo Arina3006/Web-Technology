@@ -4,23 +4,20 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    letter-spacing: 0;
 }
 .global{
     float: none;
     height: auto;
     margin: 0 auto;
-    position: relative;
     width: 100%;
     background: #f2efe5 center 0;
     background-position: center top;
     background-size: cover;
 }
 .logo{
-    padding: 27px 0 336px;
-    width: 100%;
+    width: 50%;
+    height: 500px;
     background: url(images/single_slide.jpg) no-repeat center 0;
-    background-position: center top;
     background-size: cover;
 }
 .menu{
@@ -92,13 +89,17 @@ body{
     width: 100%;
 }
 .row_1{
-    position: relative;
+    width: 1500px;
+    margin: 0;
+    height: 500px;
+    display: flex;
 }
 .pic_1{
     float: left;
     margin: 0 84px 0 0;
     padding: 189px 0 192px;
     width: 750px;
+    height: 500px;
     background: url(images/img_studio_bg.jpg) no-repeat;
 }
 .title_about{
@@ -717,15 +718,18 @@ body{
     position: relative;
 }
 .footer{
-    padding: 170px 0 65px;
-    position: relative;
     background: #aeaeae;
-    height: 200px;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .contain_4{
     margin: 0 auto;
     position: relative;
     width: 1500px;
+    margin-top: 50px;
 }
 .row_9{
     margin: 0 auto;
@@ -796,7 +800,9 @@ body{
     text-transform: uppercase;
 }
 .copyright {
-    display: block;
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 100px;
 }
 .text_38{
     font-family: Roboto, sans-serif;
