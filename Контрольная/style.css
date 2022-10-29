@@ -25,6 +25,8 @@ body{
 }
 .menu{
     justify-content: center;
+    display: -webkit-box;
+    margin-left: 400px;
 }
 .home{
     float: left;
