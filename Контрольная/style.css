@@ -4,6 +4,7 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
+    margin: 0;
 }
 .global{
     float: none;
@@ -15,16 +16,15 @@ body{
     background-size: cover;
 }
 .logo{
-    width: 50%;
+    width: 100%;
     height: 500px;
     background: url(images/single_slide.jpg) no-repeat center 0;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .menu{
-    margin: 0 auto;
-    padding: 0 369px;
-    position: relative;
-    width: 1500px;
+    justify-content: center;
 }
 .home{
     float: left;
@@ -56,7 +56,7 @@ body{
 }
 .contact{
     float: right;
-    margin: 62px 700px 0 0;
+    margin: 62px 70px 0 0;
     color: #1a1a1a;
     font-size: 12px;
     text-align: center;
@@ -82,6 +82,7 @@ body{
     background-color: #f2efe5;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .about_us{
     margin: 0 auto;
@@ -89,25 +90,17 @@ body{
     width: 100%;
 }
 .row_1{
-    width: 1500px;
     margin: 0;
     height: 500px;
     display: flex;
 }
 .pic_1{
     float: left;
-    margin: 0 84px 0 0;
     padding: 189px 0 192px;
-    width: 750px;
-    height: 500px;
-    background: url(images/img_studio_bg.jpg) no-repeat;
+    background: url(images/img_studio_bg.jpg) no-repeat center;
 }
 .title_about{
-    display: block;
-    left: 10px;
-    margin: 0 auto;
-    min-height: 100px;
-    position: relative;
+    margin: 0 200px;
     width: 300px;
     border: 10px solid #121212;
     color: #010101;
@@ -115,13 +108,13 @@ body{
     font-weight: bold;
     line-height: 100px;
     text-align: center;
-    text-transform: uppercase;
+    -ms-flex-item-align: center;
 }
 .column_1{
-    float: left;
-    margin: 92px 0 0;
-    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
     width: 545px;
+    display: block;
 }
 .tattoo-design{
     display: block;
@@ -144,24 +137,23 @@ body{
     width: 1600px;
 }
 .row_2{
-    position: relative;
     float: left;
     display: flex;
 }
 .row_3{
-    position: relative;
     float: left;
     display: flex;
 }
 .img-holder{
     position: relative;
-    width: 250px;
+    width: 300px;
     background: url(images/img_32.jpg) no-repeat;
     float: right;
 }
 .hover{
-    position: relative;
     background: rgba(204, 200, 182, 0.66);
+    width: 250px;
+    height: 250px;
 }
 .link{
     margin: -150px 40px
@@ -189,12 +181,13 @@ body{
 .text-title{
     height: 350px;
     display: flex;
-    background: url(images/rettangolo_5.jpg) no-repeat center 0;
+    background: url(images/rettangolo_5.jpg) no-repeat 0;
     background-size: cover;
 }
 .contain_1{
     margin: auto;
     width: 1500px;
+
 }
 .text_3{
     margin: 0 0 0 298px;
@@ -218,7 +211,7 @@ body{
     margin: 2px 323px 0 1113px;
     position: relative;
     color: #f2efe5;
-    font-size: 16rem; /*16rem*/
+    font-size: 256px;
     font-style: italic;
     line-height: 1.2;
     text-align: center;
@@ -272,9 +265,9 @@ body{
 }
 .column_3{
     left: 50%;
-    padding: 60px 120px 150px 45px;
     position: absolute;
-    width: 410px;
+    width: 500px;
+    height: 500px;
     background: #ccc8b6;
     margin-left: 0;
 }
@@ -283,15 +276,18 @@ body{
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 100px;
 }
 .text_8{
     margin: 45px 0 0 2px;
     width: 400px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
+    margin-left: 40px;
 }
 .icons{
-    margin: 44px 0 0 17px;
+    margin-top: 40px;
+    margin-left: 40px;
     position: relative;
 }
 .text_9{
@@ -448,8 +444,7 @@ body{
 }
 .contain_2{
     margin: 0 auto;
-    position: relative;
-    width: 1500px;
+    width: 100%;
 }
 .text_25{
     display: block;
@@ -491,7 +486,6 @@ body{
 }
 .row_7{
     float: left;
-    margin-left: 0%;
     display: flex;
 
 }
@@ -561,16 +555,16 @@ body{
 }
 .title_contact{
     display: table;
-  margin: 0 auto;
-  min-height: 100px;
-  padding: 0 18px;
-  border: 10px solid #121212;
-  color: #010101;
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 100px;
-  text-align: center;
-  text-transform: uppercase;
+    margin: 0 auto;
+    min-height: 100px;
+    padding: 0 18px;
+    border: 10px solid #121212;
+    color: #010101;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .title{
     margin: 75px 0 0;
@@ -619,19 +613,16 @@ body{
     margin: 4px 0 0 49px;
     position: relative;
     width: 32px;
-    z-index: 0;
 }
 .text_31{
     display: block;
     margin: 0 auto;
     position: relative;
-    z-index: 55;
 }
 .cursor-3{
     display: block;
     margin: -1px auto 0;
     position: relative;
-    z-index: 53;
 }
 .text_32{
     float: left;
