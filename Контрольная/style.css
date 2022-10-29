@@ -34,6 +34,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     text-decoration-line: underline;
+
 }
 .about{
     color: #1a1a1a;
@@ -56,7 +57,7 @@ body{
 }
 .contact{
     float: right;
-    margin: 62px 70px 0 0;
+    margin: 62px 700px 0 0;
     color: #1a1a1a;
     font-size: 12px;
     text-align: center;
@@ -90,17 +91,25 @@ body{
     width: 100%;
 }
 .row_1{
+    width: 1500px;
     margin: 0;
     height: 500px;
     display: flex;
 }
 .pic_1{
     float: left;
+    margin: 0 84px 0 0;
     padding: 189px 0 192px;
-    background: url(images/img_studio_bg.jpg) no-repeat center;
+    width: 750px;
+    height: 500px;
+    background: url(images/img_studio_bg.jpg) no-repeat;
 }
 .title_about{
-    margin: 0 200px;
+    display: block;
+    left: 10px;
+    margin: 0 auto;
+    min-height: 100px;
+    position: relative;
     width: 300px;
     border: 10px solid #121212;
     color: #010101;
@@ -108,13 +117,13 @@ body{
     font-weight: bold;
     line-height: 100px;
     text-align: center;
-    -ms-flex-item-align: center;
+    text-transform: uppercase;
 }
 .column_1{
-    margin-top: 100px;
-    margin-left: 50px;
+    float: left;
+    margin: 92px 0 0;
+    position: relative;
     width: 545px;
-    display: block;
 }
 .tattoo-design{
     display: block;
@@ -137,23 +146,24 @@ body{
     width: 1600px;
 }
 .row_2{
+    position: relative;
     float: left;
     display: flex;
 }
 .row_3{
+    position: relative;
     float: left;
     display: flex;
 }
 .img-holder{
     position: relative;
-    width: 300px;
+    width: 250px;
     background: url(images/img_32.jpg) no-repeat;
     float: right;
 }
 .hover{
+    position: relative;
     background: rgba(204, 200, 182, 0.66);
-    width: 250px;
-    height: 250px;
 }
 .link{
     margin: -150px 40px
@@ -224,7 +234,7 @@ body{
     text-align: left;
 }
 .team{
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     width: 1500px;
 }
@@ -265,9 +275,9 @@ body{
 }
 .column_3{
     left: 50%;
+    padding: 60px 120px 150px 45px;
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 410px;
     background: #ccc8b6;
     margin-left: 0;
 }
@@ -276,18 +286,15 @@ body{
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 100px;
 }
 .text_8{
     margin: 45px 0 0 2px;
     width: 400px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2;
-    margin-left: 40px;
 }
 .icons{
-    margin-top: 40px;
-    margin-left: 40px;
+    margin: 44px 0 0 17px;
     position: relative;
 }
 .text_9{
@@ -444,7 +451,8 @@ body{
 }
 .contain_2{
     margin: 0 auto;
-    width: 100%;
+    position: relative;
+    width: 1500px;
 }
 .text_25{
     display: block;
@@ -486,8 +494,8 @@ body{
 }
 .row_7{
     float: left;
+    margin-left: 0%;
     display: flex;
-
 }
 .row_7_1{
     position: relative;
@@ -638,7 +646,7 @@ body{
 }
 
 .form{
-    float: right;
+    float:right;
     height: 900px;
 }
 .full-name{
