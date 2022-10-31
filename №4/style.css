@@ -1,5 +1,30 @@
 body{
     margin: 0;
+    color:rgb(16, 46, 46);
+    background: antiquewhite;
+    transition: all .3s ease;
+}
+.dark-mode {
+    color:antiquewhite;
+    background-color:darkslategrey;
+}
+.btn_1{
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: rgb(3, 45, 38);
+    border: none;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color:antiquewhite;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .board{
     width: 100%;
@@ -21,8 +46,8 @@ body{
     box-shadow: #000;
 }
 header {
-    background-color: black;
     margin: 0 auto;
+    background-color: darkslategrey;
 }
 nav{
     display: flex;
@@ -45,7 +70,8 @@ ul li{
     text-align: center;
 }
 ul li a{
-    color:azure;
+    color:antiquewhite;
+    font-weight: bold;
     display: flex;
     height: 60px;
     text-transform:uppercase;
@@ -62,10 +88,8 @@ h1 {
     display: flex;
 }
 .content {
-    background-color: darkslategray;
     height: 1700px;
     flex-basis: 80%;
-    color: aliceblue;
 }
 .content div{
     text-align: center;
@@ -87,7 +111,7 @@ section{
     justify-content: space-around;
 }
 .dop-info {
-    background-color:cadetblue;
+    background-color: dimgray;
     height: 1700px;
     flex-basis: 20%;
 }
@@ -111,9 +135,7 @@ form{
     margin-left: 20px;
 }
 footer {
-    background-color:antiquewhite;
-    color:darkslategray;
-    height: 200px;
+    height: 300px;
     text-align-last: center;
     border-top: 10px;
     padding-top: 20px;
