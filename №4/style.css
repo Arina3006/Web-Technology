@@ -47,7 +47,8 @@ body{
 }
 header {
     margin: 0 auto;
-    background-color: darkslategrey;
+    background-color:dimgrey;
+    background: linear-gradient( rgb(4, 65, 54), rgb(97, 153, 155), rgb(4, 65, 54));
 }
 nav{
     display: flex;
