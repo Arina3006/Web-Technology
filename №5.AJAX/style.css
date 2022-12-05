@@ -2,6 +2,50 @@ header {
     background-color: black;
     margin: 0 auto;
 }
+.film{
+    background-color: darkslategray;
+    width: 100%;
+    color: azure;
+    height: 300px;
+}
+.film p{
+    color: rgb(181, 215, 215);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+.text_about{
+    background-color: darkseagreen;
+    width: 100%;
+    color: rgb(22, 62, 62);
+    height: 400px;
+}
+.text_about p{
+    color: rgb(6, 39, 39);
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.actor{
+    background-color: rgb(28, 81, 97);
+    width: 100%;
+    color: azure;
+    height: 700px;
+}
+.actor p{
+    color:antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.actor_img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 nav{
     display: flex;
     justify-content: space-around;
