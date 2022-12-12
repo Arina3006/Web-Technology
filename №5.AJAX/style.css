@@ -16,13 +16,13 @@ header {
     margin-top: 70px;
 }
 .text_about{
-    background-color: darkseagreen;
+    background-color: rgb(31, 90, 74);
     width: 100%;
-    color: rgb(22, 62, 62);
+    color:antiquewhite;
     height: 400px;
 }
 .text_about p{
-    color: rgb(6, 39, 39);
+    color:antiquewhite
     font-size: large;
     font-weight: bold;
     margin-left: 5%;
