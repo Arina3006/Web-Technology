@@ -8,6 +8,7 @@ function changeHTML(content) {
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200) {
            cont.innerHTML = request.responseText
+           localStorage.setItem('key', request.responseText)
         }
     }
 }
@@ -23,3 +24,11 @@ li[1].onclick = () => {
 li[2].onclick = () => {
     changeHTML('actor.html')
 }
+li[3].onclick = () => {
+    changeHTML('main.html')
+}
+
+function onload() {
+    cont.innerHTML=localStorage.getItem('key')
+}
+document.addEventListener('DOMContentLoaded', onload)
